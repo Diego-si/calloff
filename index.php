@@ -8,7 +8,11 @@ $app->config('debug', true);
 
 $app->get('/', function() {
     
-	echo "OK";
+	$sql = new Hcalloffe\DB\sql();
+
+	$results = $sql->select("SELECT * FROM users");
+
+	echo json_encode($results);
 
 });
 

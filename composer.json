@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "": "vendor\\Diego-si\\php-classes\\src"
+            "Hcalloffe\\": "vendor\\hcodebr\\php-classes\\src"
         }
     }
 }
