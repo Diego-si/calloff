@@ -1,3 +1,4 @@
+
 @import url(//db.onlinewebfonts.com/c/7b03fdb6d9bfa7c997bc732b5e8918e2?family=Forgotten+Futurist);
 
 html, body, a, p, h1, h2, th {
@@ -157,7 +158,44 @@ h2{
   }
 }
 
+p{
+  color: #ffffff;
+}
+label{
+  color: #ffffff;
+}
+.container{
+  background-color: rgba(0, 255, 55, 0.192);
+}
+.container-fluid{
+  background-image: linear-gradient(to bottom,orange,black);
+  border-radius: 20px 20px 20px 20px;
+}
+.container-fluid .col-md-6{
+  border-color: rgba(0, 0, 0, 0.125);
+  box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 30px;
+  border-Radius: 30px;
+  margin: 5px;
+  overflow: hidden;
+}
+.container-fluid .col-md-8{
+  border-color: rgba(0, 0, 0, 0.125);
+  box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 30px;
+  border-Radius: 30px;
+  margin: 5px;
+  overflow: hidden;
+}
 
+.container-fluid p {
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+}
+a{
+  display: block;
+}
 
 .jumbotron{
   margin-bottom: 0;
