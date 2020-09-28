@@ -2,17 +2,23 @@
 
 require_once("vendor/autoload.php");
 
-$app = new \Slim\Slim();
+use \Slim\Slim;
+use \Hcalloffe\Page;
+
+$app = new Slim();
 
 $app->config('debug', true);
 
 $app->get('/', function() {
-    
-	$sql = new Hcalloffe\DB\sql();
+		
+	$page = new Page();
+
+	$page->setTpl("index");
+	/* $sql = new Hcalloffe\DB\sql();
 
 	$results = $sql->select("SELECT * FROM users");
 
-	echo json_encode($results);
+	echo json_encode($results); */
 
 });
 
