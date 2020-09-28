@@ -1,0 +1,247 @@
+
+@import url(//db.onlinewebfonts.com/c/7b03fdb6d9bfa7c997bc732b5e8918e2?family=Forgotten+Futurist);
+/* @font-face {
+  font-family: Prime-Light;
+  src: url('/src/font/Prime-Light.eot');
+  src: url('/src/font/Prime-Light.eot?#iefix') format('embedded-opentype'),
+  url('/src/font/Prime-Light.woff2') format('woff2'),
+  url('/src/font/Prime-Light.woff') format('woff'),
+  url('/src/font/Prime-Light.ttf') format('truetype');
+} */
+/* @font-face {
+  font-family: 'Prime Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Prime Light'), url('/src/font/Prime-Light.woff') format('woff');
+} */
+
+html, body, a, p, h1, h2, th {
+  font-family: "Forgotten+Futurist";
+}
+
+.fundo {
+  background-image: url(https://cdn.discordapp.com/attachments/642859069257941002/748684694287024253/20200827_202337.png);
+}
+  @media screen and (max-width: 980px) {
+.fundo {
+  background-image: url(https://cdn.discordapp.com/attachments/642859069257941002/748674625340440647/20200827_194119.png);
+}
+}
+
+h1{
+  text-align: center;
+  font-size: 28px;
+  color: goldenrod;
+}
+.nav-links.open {
+  clip-path: circle(1000px at 90% -10%);
+  -webkit-clip-path: circle(1100px at 90% -10%);
+  pointer-events: all;
+}
+.landing {
+  flex-direction: column;
+}
+.nav-item a{
+    font-size: 28px;
+}
+#imgicon{
+  margin-left: 10px;
+  width: 8%;
+  height:8%;
+}
+@media screen and (max-width: 1366px) {
+  .nav-item a{
+    font-size: 28px;
+  }
+  #imgicon{
+    margin-left: 10px;
+    width: 8%;
+    height:8%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #imgicon{
+    margin-left: 10px;
+    width: 8%;
+    height:8%;
+  }
+}
+@media screen and (max-width: 812px) {
+  #imgicon{
+    width: 10%;
+    height: 10%;
+  }
+}
+@media screen and (max-width: 736px) {
+  #imgicon{
+    width: 10%;
+    height: 10%;
+  }
+}
+@media screen and (max-width: 640px) {
+  #imgicon{
+    margin: 0;
+    width: 10%;
+    height: 10%;
+  }
+}
+.dropdown-item:hover {
+  background:rgba(0, 0, 0, 0.5)
+}
+
+@import url(//db.onlinewebfonts.com/c/7b03fdb6d9bfa7c997bc732b5e8918e2?family=Forgotten+Futurist);
+    
+body{
+  background-color: rgba(0, 0, 0, 0);
+}
+h2{
+  text-align: center;
+  font-size: 28px;
+  color: goldenrod;
+}
+@keyframes slide {
+    0%{ transform: translateX(-60%);}
+    
+    100%{ transform: translateX(25%);}
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure img{
+    float: left;
+    width: 14.28%;
+}
+.slider figure{
+    position: relative;
+    width: 200%;
+    animation: slide 20s infinite;
+}
+.container{
+  background-color: rgba(0, 0, 0, 0.205);
+  border-radius: 10px 10px 10px 10px;
+}
+.container-fluid{
+  background-image: linear-gradient(to bottom,rgba(255, 166, 0, 0.904),black);
+  border-radius: 20px 20px 20px 20px;
+  height: 80%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.container-fluid .col-md-6{
+  border-color: rgba(0, 0, 0, 0.125);
+  box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 30px;
+  border-Radius: 30px;
+  margin: 5px;
+  overflow: hidden;
+}
+.container-fluid .col-md-8{
+  border-color: rgba(0, 0, 0, 0.125);
+  box-Shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border: 30px;
+  border-Radius: 30px;
+  margin: 5px;
+  overflow: hidden;
+}
+
+.container-fluid p {
+  color: #ffffff;
+  text-align: center;
+  padding: 5px;
+  font-family: "Forgotten+Futurist";
+}
+.gif{
+  height: 50%;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 980px) {
+  .gif {
+    height: 95%;
+    width: 95%;
+  }
+  .container-fluid{
+    height: 100%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+.jumbotron{
+  margin-bottom: 0;
+  padding-bottom: 0.1%;
+}
+.responsive{
+  float: left;
+  width: 25%;
+}
+#footer {
+  /* background-color: rgb(255, 0, 0); */
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0;
+}
+.icons{
+  padding: 0%;
+}
+#footer .icons li a{
+  height: 50px;
+  float: left;
+  border: 2px solid #FFD700;
+  display: block;
+}
+.fab {
+  color: #FFD700;
+  font-size: 70px;
+}
+.fab:hover {
+  color: #ffffff;
+}  
+#footer .copyright {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.6em;
+  letter-spacing: 0.225em;
+  list-style: none;
+  padding: 0;
+  text-transform: uppercase;
+}
+
+#footer .copyright li {
+  display: inline-block;
+  line-height: 1em;
+  align-items: center;
+}
+
+#footer .copyright li a {
+  color: inherit;
+}
+
+#footer .copyright li a:hover {
+  color: #fff;
+}
+@media screen and (max-width: 980px) {
+  .footerImg {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .fab{
+    font-size: 40px;
+  }
+  #footer .copyright li {
+    display: block;
+    line-height: 1.65em;
+    margin: 0;
+  }
+}
+.dropdown-menu a {
+  color: #FFD700;
+}
+
