@@ -28,7 +28,7 @@
           <!--<li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>-->
-          <% if(user) { %>
+          <!-- 
             <li class="nav-item">
               <a class="nav-link text-warning" href="/">HOME</a>
             </li>
@@ -45,7 +45,7 @@
                 <a class="dropdown-item" href="/rankingfull">FULL LEVEL</a>
                 <a class="dropdown-item" href="/rankingbr">RANKING-BR</a>
               </div>
-            </li>
+            </li> -->
             <!-- <li class="nav-item">
               <a class="nav-link text-warning" href="/rankingm">RANKING-M</a>
             </li>
@@ -55,7 +55,7 @@
             <li class="nav-item">
             <a class="nav-link text-warning" href="/quemSomos">Quem Somos</a>
             </li> -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-warning" href="/organi">ORGANIZAÇÕES</a>
             </li>
             <li class="nav-item">
@@ -64,7 +64,7 @@
             <li class="nav-item log">
               <a class="nav-link text-warning" href="/login/logout">SAIR</a>
             </li>
-          <% } else { %>
+          <% } else { %> -->
             <li class="nav-item">
               <a class="nav-link text-warning" href="/">HOME</a>
             </li>
@@ -95,7 +95,7 @@
               <a class="nav-link text-warning" href="/organi">ORGANIZAÇÕES</a>
             </li>
             <li class="nav-item log">
-              <a class="nav-link text-warning" href="/login/index">ENTRAR</a>
+              <a class="nav-link text-warning" href="/admin/login">ENTRAR</a>
             </li>
           <% } %>
         </ul>

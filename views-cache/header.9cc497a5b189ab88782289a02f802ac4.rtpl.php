@@ -62,9 +62,9 @@
               <a class="nav-link text-warning" href="/loginLogado">EDITAR</a>
             </li>
             <li class="nav-item log">
-              <a class="nav-link text-warning" href="/login/logout">SAIR</a>
+              <a class="nav-link text-warning" href="/admin/logout">SAIR</a>
             </li>
-          <% } else { %>
+          <!-- <% } else { %>
             <li class="nav-item">
               <a class="nav-link text-warning" href="/">HOME</a>
             </li>
@@ -81,7 +81,7 @@
                 <a class="dropdown-item text-warning" href="/rankingfull">FULL LEVEL</a>
                 <a class="dropdown-item text-warning" href="/rankingbr">RANKING-BR</a>
               </div>
-            </li>
+            </li> -->
             <!-- <li class="nav-item">
               <a class="nav-link text-warning" href="/rankingm">RANKING-M</a>
             </li>
@@ -91,13 +91,13 @@
             <li class="nav-item">
               <a class="nav-link text-warning" href="/fulllevel">FULL LEVEL</a>
             </li> -->
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-warning" href="/organi">ORGANIZAÇÕES</a>
             </li>
             <li class="nav-item log">
               <a class="nav-link text-warning" href="/login/index">ENTRAR</a>
             </li>
-          <% } %>
+          <% } %> -->
         </ul>
       </div>
     </nav>
