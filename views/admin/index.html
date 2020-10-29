@@ -8,20 +8,18 @@
 
             <h1 class="text-center">Olá Seja Bem Vindo</h1>
 
-            <%- include('includes/messages'); %>
-
             <h1 class="text-center">Oque deseja editar ?</h1>
 
             
             <a class="nav-link text-warning" href="/">HOME</a>
 
-            <a class="nav-link text-warning" href="/rankingmRegister/rankingm">RANKING-M</a>
+            <a class="nav-link text-warning" href="/admin/rankingmjRegister">RANKING-M</a>
 
-            <a class="nav-link text-warning" href="/rankingfRegister/rankingf">RANKING-F</a>
+            <a class="nav-link text-warning" href="/admin/rankingfRegister">RANKING-F</a>
           
             <a class="nav-link text-warning" href="/rankingfullRegister/rankingfull">RANKING-FULLLEVEL</a>
 
-            <a class="nav-link text-warning" href="/rankingbrRegister/rankingbr">RANKING-BR</a>
+            <a class="nav-link text-warning" href="/admin/rankingbrRegister">RANKING-BR</a>
 
           </div>
 

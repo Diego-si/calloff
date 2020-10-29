@@ -28,7 +28,6 @@
           <!--<li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>-->
-          <% if(user) { %>
             <li class="nav-item">
               <a class="nav-link text-warning" href="/">HOME</a>
             </li>
@@ -40,7 +39,7 @@
                 RANKINGS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background:rgba(0, 0, 0, 0.5)">
-                <a class="dropdown-item" href="/rankingm">RANKING-MJ</a>
+                <a class="dropdown-item" href="/rankingmj">RANKING-MJ</a>
                 <a class="dropdown-item" href="/rankingf">RANKING-F</a>
                 <a class="dropdown-item" href="/rankingfull">FULL LEVEL</a>
                 <a class="dropdown-item" href="/rankingbr">RANKING-BR</a>
@@ -58,9 +57,9 @@
             <li class="nav-item">
               <a class="nav-link text-warning" href="/organi">ORGANIZAÇÕES</a>
             </li>
-            <li class="nav-item">
+            <!-- <li class="nav-item">
               <a class="nav-link text-warning" href="/loginLogado">EDITAR</a>
-            </li>
+            </li> -->
             <li class="nav-item log">
               <a class="nav-link text-warning" href="/admin/logout">SAIR</a>
             </li>

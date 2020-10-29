@@ -76,7 +76,7 @@
                 RANKINGS
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" style="background:rgba(0, 0, 0, 0.5)"> 
-                <a class="dropdown-item text-warning" href="/rankingm">RANKING-MJ</a>
+                <a class="dropdown-item text-warning" href="/rankingmj">RANKING-MJ</a>
                 <a class="dropdown-item text-warning" href="/rankingf">RANKING-F</a>
                 <a class="dropdown-item text-warning" href="/rankingfull">FULL LEVEL</a>
                 <a class="dropdown-item text-warning" href="/rankingbr">RANKING-BR</a>
@@ -97,7 +97,6 @@
             <li class="nav-item log">
               <a class="nav-link text-warning" href="/admin/login">ENTRAR</a>
             </li>
-          <% } %>
         </ul>
       </div>
     </nav>
